@@ -7,22 +7,25 @@ Usage
 ==========
 
 >>To attempt exploitation of a target-
-
-./bslayer.py [target host] [payload]
-E.X ./bslayer.py http://localhost/cgi-bin/vuln nc_bind
+    ./bslayer.py [target host] [payload]
+    E.X ./bslayer.py http://localhost/cgi-bin/vuln nc_bind
 
 >>To view available payloads-
-
-./bslayer.py payloads
+    ./bslayer.py payloads
 
 This tool will inject a payload included in an environment variable into a User-Agent header via POST.
 The tool will then try to establish a socket to the payload, or vice versa, depending on the type of payload.
 
+Payloads
+===========
 As of now, the payloads supported are-
 
 [ 1 ]- Netcat Bind Shell (nc_bind)
 
----------------------------------------------------------------------------------------------------------------------
+
+Example
+===========
+-------------------------------------------------------------------------------------------
 
 root@kali:~/bashslayer# ./bslayer.py http://localhost/cgi-bin/vuln nc_bind
 
