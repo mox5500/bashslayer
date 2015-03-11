@@ -15,9 +15,12 @@ _____________________________________________________________
       / |
      || |
      || |
-     || |  BashSlayer v1.0
-     || |  Written by Kory Findley (K0FIN)
+     || | BashSlayer v1.0
+     || |  
      || |
+     || | Written by Kory Findley < K0FIN >
+     || | Copyright (C) 2014-2015 << LETHAL Security >>
+     || | http://www.lethalsecurity.com/
      || |
      || |
      || |
